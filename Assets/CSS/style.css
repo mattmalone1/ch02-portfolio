@@ -1,0 +1,45 @@
+:root {
+    /* declare a variable with '--' syntax */
+    --dark: #33415C;
+    --light: #E0FBFC;
+    --navlink-color: #E0FBFC;
+    --navlink-hover: #1982C4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    /* use CSS var() function to reference a variable created above */
+    background-color: var(--dark);
+    color: var(--dark);
+  }
+  
+  h1 {
+    background-color: var(--light);
+    font-size: 200%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+  }
+
+  nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  nav a:hover {
+    color: var(--navlink-hover);
+  }
