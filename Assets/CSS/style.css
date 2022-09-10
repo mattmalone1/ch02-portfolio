@@ -63,4 +63,5 @@ body {
     background-color: var(--light);
     float:right;
     color: var(--dark);
+    font-size: 250%;
   }
