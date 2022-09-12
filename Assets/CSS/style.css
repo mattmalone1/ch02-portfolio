@@ -65,3 +65,77 @@ body {
     color: var(--dark);
     font-size: 250%;
   }
+
+  .main {
+    display: flex;
+    font-size: 300%;
+    float: left;
+    color: var(--dark);
+    
+    padding-bottom: 2%;
+    padding-right: 2%;
+    margin-right: 1%;
+    
+    
+  }
+
+  .main h2 {
+    padding-right: 5%;
+    padding-left: 190px;
+    box-shadow: 5px 0 0 0 var(--dark);
+  }
+
+  .main h3 {
+    padding-right: 5%;
+    padding-left: 260px;
+    box-shadow: 5px 0 0 0 var(--dark);
+    padding-bottom: 2%;
+  }
+  
+  .main h4 {
+    margin-left: 2%;
+    font-size: 50%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    padding-left: 0%;
+    /* use CSS var() function to reference a variable created above */
+    color: var(--dark);
+    font-size: 300%;
+  }
+  .footer h2 {
+    padding-right: 5%;
+    padding-left: 150px;
+    box-shadow: 5px 0 0 0 var(--dark);
+  }
+
+  .footer h3 {
+    padding-right: 5%;
+    padding-left: 260px;
+    box-shadow: 5px 0 0 0 var(--dark);
+    padding-bottom: 2%;
+  }
+  
+  .footer nav ul {
+    float:unset;
+    align-items: left;
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+  }
+
+  .footer nav a {
+    background-color: unset;
+    color: var(--dark);
+    font-size: 50%;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .footer nav a:hover {
+    color: var(--navlink-hover);
+  }
